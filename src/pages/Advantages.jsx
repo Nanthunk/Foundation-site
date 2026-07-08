@@ -1,5 +1,5 @@
 import "./Advantages.css";
-import eventImage from "../assets/logo.jpeg"; 
+import eventImage from "../assets/Logo.jpeg"; 
 
 function Advantages() {
   return (
