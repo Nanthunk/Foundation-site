@@ -1,0 +1,201 @@
+.why-zugo{
+
+    padding:50px 0;
+
+    background:#fff;
+}
+
+.why-container{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+}
+
+.section-tag{
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    color:#9d8c6d;
+
+    font-size:14px;
+
+    margin-bottom:25px;
+
+    font-weight: bolder;
+}
+
+.why-title{
+
+    font-size:72px;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    color:#111;
+
+    max-width:1000px;
+
+    margin-bottom:80px;
+}
+
+.gradient-text{
+    display:inline-block;
+    font-family:Georgia, serif;
+    font-style:italic;
+    font-weight:400;
+    background-image:linear-gradient(
+        90deg,
+        #2952ff,
+        #00a8ff
+    );
+    background-size:100%;
+    background-repeat:no-repeat;
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+}
+
+.why-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    border:1px solid #e5e5e5;
+}
+
+.why-card{
+
+    padding:60px;
+
+    border-right:1px solid #e5e5e5;
+
+    transition:.35s;
+}
+
+.why-card:last-child{
+
+    border-right:none;
+}
+
+.why-card:hover{
+
+    background:#fafafa;
+}
+
+.card-number{
+
+    font-size:54px;
+
+    font-family:Georgia, serif;
+
+    color:#2952ff;
+
+    font-style:italic;
+
+    display:block;
+
+    margin-bottom:40px;
+}
+
+.why-card h3{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+    color:#111;
+}
+
+.why-card p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:18px;
+}
+
+/* ---------------- Tablet ---------------- */
+
+@media(max-width:992px){
+
+.why-title{
+
+    font-size:52px;
+}
+
+.why-cards{
+
+    grid-template-columns:1fr;
+}
+
+.why-card{
+
+    border-right:none;
+
+    border-bottom:1px solid #e5e5e5;
+}
+
+.why-card:last-child{
+
+    border-bottom:none;
+}
+
+}
+
+/* ---------------- Mobile ---------------- */
+
+@media(max-width:768px){
+
+.why-zugo{
+
+    padding:80px 0;
+}
+
+.section-tag{
+
+    font-size:12px;
+
+    letter-spacing:3px;
+}
+
+.why-title{
+
+    font-size:34px;
+
+    margin-bottom:45px;
+}
+
+.card-number{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+}
+
+.why-card{
+
+    padding:35px 25px;
+}
+
+.why-card h3{
+
+    font-size:26px;
+}
+
+.why-card p{
+
+    font-size:15px;
+
+    line-height:1.8;
+}
+
+}

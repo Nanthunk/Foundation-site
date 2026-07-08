@@ -1,0 +1,231 @@
+/* ==========================
+   HOW IT WORKS
+========================== */
+
+.how-it-works {
+  padding: 50px 0;
+  background: #ffffff;
+}
+
+.how-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* ==========================
+   SECTION LABEL
+========================== */
+
+.how-label {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #9b8b6c;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+.how-title {
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #111;
+  margin-bottom: 80px;
+}
+
+.how-title span {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #5d5d5d;
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #e6e6e6;
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.step-card {
+  padding: 55px;
+  border-right: 1px solid #e6e6e6;
+  transition: all .35s ease;
+  background: #fff;
+  min-height: 420px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.step-card:last-child {
+  border-right: none;
+}
+
+.step-card:hover {
+  background: #fafafa;
+  transform: translateY(-8px);
+}
+
+/* ==========================
+   NUMBER
+========================== */
+
+.step-number {
+  font-size: 60px;
+  color: #1d4eff;
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-bottom: 40px;
+  display: block;
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+.step-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+/* ==========================
+   DESCRIPTION
+========================== */
+
+.step-card p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.9;
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 992px) {
+
+  .how-it-works {
+    padding: 90px 0;
+  }
+
+  .how-title {
+    font-size: 54px;
+    margin-bottom: 60px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .step-card {
+    min-height: 340px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 40px;
+  }
+
+  .step-card:nth-child(2n) {
+    border-right: none;
+  }
+
+  .step-card:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+  .how-it-works {
+    padding: 70px 0;
+  }
+
+  .how-container {
+    width: 92%;
+  }
+
+  .how-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+  .how-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-card {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 35px 25px;
+  }
+
+  .step-card:last-child {
+    border-bottom: none;
+  }
+
+  .step-number {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .step-card h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .step-card p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+}
+
+/* ==========================
+   SMALL MOBILE
+========================== */
+
+@media (max-width: 480px) {
+
+  .how-title {
+    font-size: 34px;
+  }
+
+  .step-card {
+    padding: 30px 20px;
+  }
+
+  .step-card h3 {
+    font-size: 22px;
+  }
+
+  .step-card p {
+    font-size: 15px;
+  }
+
+}

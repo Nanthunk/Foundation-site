@@ -1,0 +1,384 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  transition: all 0.4s ease;
+  z-index: 1000;
+}
+
+.container {
+  width: 92%;
+  max-width: 1300px;
+  margin: auto;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===========================
+LOGO
+=========================== */
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d7b46;
+  text-decoration: none;
+}
+
+/* ===========================
+DESKTOP MENU
+=========================== */
+
+.desktop-nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.desktop-nav .nav-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.desktop-nav .nav-links a:hover {
+  color: #0d7b46;
+}
+
+/* ===========================
+RIGHT SECTION
+=========================== */
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+
+.membership-link{
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+}
+/* ===========================
+DONATE BUTTON
+=========================== */
+
+.donate-btn{
+    border:none;
+    background:#0d7b46;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:40px;
+    cursor:pointer;
+    transition:.3s;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    line-height:1;
+}
+
+.donate-btn:hover {
+  background: #095f35;
+}
+
+/* ===========================
+HAMBURGER
+=========================== */
+
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #0d7b46;
+}
+
+/* ===========================
+FLOATING NAVBAR
+=========================== */
+
+.navbar-scroll {
+
+  width: 60%;
+  left: 50%;
+  top: 15px;
+
+  transform: translateX(-50%);
+
+  height: 65px;
+
+  border-radius: 50px;
+
+  background: rgba(255,255,255,.96);
+
+  backdrop-filter: blur(20px);
+
+  box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+/* ===========================
+MOBILE MENU
+=========================== */
+
+.mobile-menu{
+
+  position:fixed;
+
+  top:0;
+
+  right:-100%;
+
+  width:300px;
+
+  height:100vh;
+
+  background:#fff;
+
+  box-shadow:-10px 0 30px rgba(0,0,0,.12);
+
+  transition:.45s;
+
+  z-index:1500;
+
+  display:flex;
+
+  flex-direction:column;
+
+  padding:90px 35px;
+}
+
+.mobile-menu.active{
+
+  right:0;
+}
+
+/* ===========================
+CLOSE BUTTON
+=========================== */
+
+.close-btn{
+
+  position:absolute;
+
+  top:20px;
+
+  right:20px;
+
+  width:42px;
+
+  height:42px;
+
+  border-radius:50%;
+
+  background:#0d7b46;
+
+  color:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.close-btn:hover{
+
+  transform:rotate(90deg);
+}
+
+/* ===========================
+MOBILE LINKS
+=========================== */
+
+.mobile-menu a{
+
+  text-decoration:none;
+
+  color:#222;
+
+  font-size:18px;
+
+  font-weight:600;
+
+  padding:16px 0;
+
+  border-bottom:1px solid #eee;
+
+  transition:.3s;
+}
+
+.mobile-menu a:hover{
+
+  color:#0d7b46;
+
+  padding-left:10px;
+}
+
+/* ===========================
+MOBILE DONATE
+=========================== */
+
+.mobile-donate{
+
+  margin-top:35px;
+
+  border:none;
+
+  background:#0d7b46;
+
+  color:white;
+
+  padding:14px;
+
+  border-radius:40px;
+
+  cursor:pointer;
+
+  font-size:16px;
+
+  transition:.3s;
+}
+
+.mobile-donate:hover{
+
+  background:#095f35;
+}
+
+/* ===========================
+TABLET
+=========================== */
+
+@media(max-width:992px){
+
+.navbar-scroll{
+
+width:92%;
+
+}
+
+.desktop-nav .nav-links{
+
+gap:20px;
+
+}
+
+}
+
+/* ===========================
+MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.navbar{
+
+height:70px;
+
+}
+
+.logo{
+
+font-size:22px;
+
+}
+
+/* Hide desktop menu */
+
+.desktop-nav{
+
+display:none;
+
+}
+
+/* Show Hamburger */
+
+.menu-icon{
+
+display:block;
+
+}
+
+/* Structure */
+
+.right-section{
+
+gap:15px;
+
+}
+
+.donate-btn{
+
+padding:10px 18px;
+
+font-size:14px;
+
+}
+
+/* Floating */
+
+.navbar-scroll{
+
+width:95%;
+
+height:60px;
+
+top:10px;
+
+border-radius:40px;
+
+}
+
+}
+
+/* ===========================
+SMALL MOBILE
+=========================== */
+
+@media(max-width:480px){
+
+.logo{
+
+font-size:18px;
+
+}
+
+.donate-btn{
+
+padding:8px 14px;
+
+font-size:12px;
+
+}
+
+.menu-icon{
+
+font-size:22px;
+
+}
+
+.mobile-menu{
+
+width:100%;
+
+}
+
+}
