@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import "./Gallery.css";
-
+import GalleryImage from "../assets/Gallery.jpg";
 import {
   FaArrowRight,
   FaCamera,
@@ -80,7 +80,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery1.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -88,7 +88,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Education Drive</h3>
+                <h3>Image 1</h3>
 
               </div>
 
@@ -99,7 +99,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery2.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -107,7 +107,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Medical Camp</h3>
+                <h3>Image 2</h3>
 
               </div>
 
@@ -118,7 +118,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery3.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -126,7 +126,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Tree Plantation</h3>
+                <h3>Image 3</h3>
 
               </div>
 
@@ -137,7 +137,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery4.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -145,7 +145,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Food Distribution</h3>
+                <h3>Image 4</h3>
 
               </div>
 
@@ -156,7 +156,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery5.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -164,7 +164,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Community Support</h3>
+                <h3>Image 5</h3>
 
               </div>
 
@@ -175,7 +175,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery6.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -183,7 +183,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Volunteer Team</h3>
+                <h3>Image 6</h3>
 
               </div>
 
@@ -194,7 +194,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery7.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -202,7 +202,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Awareness Program</h3>
+                <h3>Image 7</h3>
 
               </div>
 
@@ -213,7 +213,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery8.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -221,7 +221,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Healthcare Camp</h3>
+                <h3>Image 8</h3>
 
               </div>
 
@@ -232,7 +232,7 @@ function Gallery() {
             <div className="photo-card">
 
               <img
-                src="/images/gallery9.jpg"
+                src={GalleryImage}
                 alt="Gallery"
               />
 
@@ -240,7 +240,7 @@ function Gallery() {
 
                 <FaCamera />
 
-                <h3>Happy Moments</h3>
+                <h3>Image 9</h3>
 
               </div>
 

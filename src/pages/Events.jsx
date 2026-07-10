@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
 import "./Events.css";
+import EventImage from "../assets/Event.jpg";
+import UpcomingEventImage from "../assets/UpcomingEvent.jpg";
 
 import {
   FaArrowRight,
@@ -70,7 +72,7 @@ function Events() {
             <div className="featured-image">
 
               <img
-                src="/images/event1.jpg"
+                src={EventImage}
                 alt="Featured Event"
               />
 
@@ -166,7 +168,7 @@ function Events() {
             <div className="event-card">
 
               <img
-                src="/images/event2.jpg"
+                src={UpcomingEventImage}
                 alt="Event 2"
               />
 
@@ -210,7 +212,7 @@ function Events() {
             <div className="event-card">
 
               <img
-                src="/images/event3.jpg"
+                src={UpcomingEventImage}
                 alt="Event 3"
               />
 
@@ -254,7 +256,7 @@ function Events() {
             <div className="event-card">
 
               <img
-                src="/images/event4.jpg"
+                src={UpcomingEventImage}
                 alt="Event 4"
               />
 
@@ -298,7 +300,7 @@ function Events() {
             <div className="event-card">
 
               <img
-                src="/images/event5.jpg"
+                src={UpcomingEventImage}
                 alt="Event 5"
               />
 

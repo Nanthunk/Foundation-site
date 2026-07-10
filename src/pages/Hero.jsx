@@ -1,5 +1,5 @@
 import "./Hero.css";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaArrowDown } from "react-icons/fa";
 import logo from "../assets/Logo.jpeg"; // Replace with your logo
 
 function Hero() {
@@ -37,15 +37,16 @@ function Hero() {
 
         <div className="hero-buttons">
 
-          <button className="hero-primary-btn">
+          <a href="/membership"><button className="hero-primary-btn">
             Join Us
             <FaArrowRight />
-          </button>
+          </button></a>
 
-          <button className="hero-secondary-btn">
-            Learn More
-            <FaArrowRight />
+          <a href="/advantages"><button className="hero-secondary-btn">
+            Scroll Down to Learn More
+            <FaArrowDown />
           </button>
+          </a>
 
         </div>
 
