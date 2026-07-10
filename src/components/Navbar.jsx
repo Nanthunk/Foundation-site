@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <>
       <header className={scrolled ? "navbar navbar-scroll" : "navbar"}>
-        <div className="container">
+        <div className="navbar-container">
 
           {/* Logo */}
           <Link to="/" className="logo">
