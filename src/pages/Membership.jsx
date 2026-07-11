@@ -199,7 +199,7 @@ function Membership() {
                 className="whatsapp-btn"
                 target="_blank"
                 rel="noreferrer"
-                href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20join%20the%206%20Months%20Membership%20(₹8,000).%20Please%20share%20the%20payment%20details."
+                href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20join%20the%206%20Months%20Membership%20(₹8,000).%20Please%20share%20the%20payment%20details."
               >
                 <FaWhatsapp />
 
@@ -269,7 +269,7 @@ function Membership() {
                 className="whatsapp-btn"
                 target="_blank"
                 rel="noreferrer"
-                href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20join%20the%20Annual%20Membership%20(₹15,000).%20Please%20share%20the%20payment%20details."
+                href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20join%20the%20Annual%20Membership%20(₹15,000).%20Please%20share%20the%20payment%20details."
               >
                 <FaWhatsapp />
 
@@ -518,7 +518,7 @@ function Membership() {
               className="cta-whatsapp"
               target="_blank"
               rel="noreferrer"
-              href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20become%20a%20member.%20Please%20guide%20me."
+              href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20Saw%20your%20Website%20now,%20and%20I%20would%20like%20to%20become%20a%20member.%20Please%20guide%20me."
             >
 
               <FaWhatsapp />

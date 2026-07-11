@@ -119,7 +119,7 @@ function Events() {
 </ul>
 
               <a
-                href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20want%20to%20register%20for%20the%20Empowerment%20Program."
+                href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20want%20to%20register%20for%20the%20Empowerment%20Program."
                 target="_blank"
                 rel="noreferrer"
                 className="register-btn"
@@ -604,7 +604,7 @@ function Events() {
             </p>
 
             <a
-              href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20would%20like%20to%20volunteer%20for%20your%20upcoming%20events."
+              href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20would%20like%20to%20volunteer%20for%20your%20upcoming%20events."
               target="_blank"
               rel="noreferrer"
               className="events-whatsapp-btn"

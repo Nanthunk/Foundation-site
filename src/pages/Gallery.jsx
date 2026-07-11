@@ -422,7 +422,7 @@ function Gallery() {
             </p>
 
             <a
-              href="https://wa.me/919585541589?text=Hi%20ZUGO%20Foundation,%20I%20would%20like%20to%20share%20my%20event%20photos."
+              href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20would%20like%20to%20share%20my%20event%20photos."
               target="_blank"
               rel="noreferrer"
               className="share-btn"
@@ -464,7 +464,7 @@ function Gallery() {
             </p>
 
             <a
-              href="https://wa.me/919876543210?text=Hi%20ZUGO%20Foundation,%20I%20want%20to%20join%20your%20next%20event."
+              href="https://wa.me/919597099949?text=Hi%20ZUGO%20Foundation,%20I%20want%20to%20join%20your%20next%20event."
               target="_blank"
               rel="noreferrer"
               className="gallery-whatsapp-btn"
